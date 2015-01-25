@@ -1,5 +1,5 @@
 # test dockerfile for experimentation
-FROM centos
+FROM localhost:5000/joey/docker-experiment-image
 MAINTAINER Joey
 ADD . /noisefiles
 
